@@ -1,0 +1,57 @@
+body{
+  background-color: #CFFF8D;
+}
+
+.fundo {
+  width: 50%;
+  height: 80px;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #A8E890;
+  border-radius: 20px;
+}
+.titulo{
+  padding-top: 10px;
+  color: white;
+}
+
+.itens {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #9F8772;
+  width: 350px;
+  height: 300px;
+  margin: 50px 20px 0 20px;
+}
+
+.emoji {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #665A48;
+  padding: 20px 0;
+  width: 350px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.nome {
+  padding: 20px 0 10px 0;
+  text-align: center;
+  color: #C8DBBE;
+  font-size: 30px;
+}
+
+.significado {
+  color: #EDE4E0;
+  text-align: center;
+  padding: 10px;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
